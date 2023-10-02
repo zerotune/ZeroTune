@@ -1,4 +1,7 @@
-<h1>Welcome to ZeroTune - Code and Documentation </h1>
+<div style="overflow: hidden;">
+    <img src="ZeroTune_logo.png" alt="ZeroTune Logo" width="100" height="100" style="float: left; margin-right: 10px;">
+    <h1>Welcome to ZeroTune - Code and Documentation</h1>
+</div>
 
 ZeroTune is a novel zero-shot learned approach for tuning parallelism in distributed stream processing system.
 
