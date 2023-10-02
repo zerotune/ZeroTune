@@ -16,4 +16,4 @@ This repository is created to support our paper submission titled "ZeroTune", sh
 
 - [Flink-Observation:](https://github.com/zerotune/ZeroTune/tree/main/flink-observation#readme) Modified the fork of Apache Flink for custom logging of observation of workload characteristics and loggin them in MongoDB database.
 
-- [zerotune-VM_image:](https://github.com/zerotune/virtualbox_image/blob/main/README.md) Modified the fork of Apache Flink for custom logging of observation of workload characteristics and loggin them in MongoDB database.
+- [zerotune-VM_image:](https://github.com/zerotune/virtualbox_image/blob/main/README.md) VM image includes all the necessary code and dependencies that are required to generate training data and training of the model. 
