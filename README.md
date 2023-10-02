@@ -1,16 +1,19 @@
-### Hi there 👋
+<h1>Welcome to ZeroTune - Code and Documentation </h1>
 
-<!--
-**zerotune/ZeroTune** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+ZeroTune is a novel zero-shot learned approach for tuning parallelism in distributed stream processing system.
 
-Here are some ideas to get you started:
+<h3>Dedicated Repository for Paper Submission:</h3>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+This repository is created to support our paper submission titled "ZeroTune", showcasing the capabilities of zero-shot model.
+
+<h3> Exploring ZeroTune's Key Components:</h3>
+
+- [zerotune-management:](https://github.com/zerotune/ZeroTune/tree/main/zerotune-management#readme) The main instructions to setup is in zerotune-management. It consists collection of scripts that facilitate the seamless setup of both local and remote clusters. These clusters serve as the foundation for the parallel query plan generator and environment for zero-shot model for training and test purpose.
+
+- [zerotune-plan-generator:](https://github.com/zerotune/ZeroTune/tree/main/zerotune-plan-generation#readme) Apache flink client application which functions as an essential tool for generating synthetic and benchmark parallel query plans. These plans are vital for the training and testing of data, a crucial aspect of our zero-shot learning model.
+
+- [zerotune-learning:](https://github.com/zerotune/ZeroTune/tree/main/zerotune-learning/flink_learning#readme) zero-shot model that specializes in providing accurate cost predictions for distributed parallel stream processing.
+
+- [Flink-Observation:](https://github.com/zerotune/ZeroTune/tree/main/flink-observation#readme) Modified the fork of Apache Flink for custom logging of observation of workload characteristics and loggin them in MongoDB database.
+
+- [zerotune-VM_image:](https://github.com/zerotune/virtualbox_image/blob/main/README.md) Modified the fork of Apache Flink for custom logging of observation of workload characteristics and loggin them in MongoDB database.
