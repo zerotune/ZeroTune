@@ -1,7 +1,7 @@
 <h1>Welcome to ZeroTune - Code and Documentation</h1>
 
 
-ZeroTune is a novel zero-shot learned approach for tuning parallelism in distributed stream processing system.
+ZeroTune is a novel zero-shot learned approach for determining cost effective parallelism degrees in distributed stream processing system.
 
 <h3>Dedicated Repository for Paper Submission:</h3>
 
